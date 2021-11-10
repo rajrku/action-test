@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "title": "Premium Runner threat modelling for dotcom",
+    "owner": "rajrku",
+    "description": "Threat model for the dotcom version of Premium runner service."
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "reviewer": "rajrku"
+  }
+}
