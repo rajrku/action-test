@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "title": "Premium Runner threat modelling for dotcom test",
+    "owner": "rajrku",
+    "description": "test"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "test",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 0
+      }
+    ],
+    "reviewer": "rajrku"
+  }
+}
