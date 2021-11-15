@@ -462,8 +462,8 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.47721769636510736,
-                    "offset": -26.82402787667128
+                    "distance": 0.3537415637110241,
+                    "offset": -32.21842685054839
                   },
                   "attrs": {
                     "text": {
@@ -658,6 +658,7 @@
               ],
               "z": 21,
               "hasOpenThreats": false,
+              "description": "- Creates an public/private key pair\n- Retrieves the runner package metadata\n- Registers the new VM as a Taskagent",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -828,8 +829,8 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.3646950251558238,
-                    "offset": 24.286614226666728
+                    "distance": 0.4121726926710145,
+                    "offset": 52.32982248430682
                   },
                   "attrs": {
                     "text": {
