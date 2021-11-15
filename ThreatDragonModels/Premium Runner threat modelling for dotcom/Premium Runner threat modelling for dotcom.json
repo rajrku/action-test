@@ -450,7 +450,8 @@
               },
               "smooth": true,
               "source": {
-                "id": "3de7a3fd-d48a-462f-9642-d86358a6d30f"
+                "x": 360,
+                "y": 310
               },
               "target": {
                 "x": 600,
@@ -797,6 +798,49 @@
                 }
               ],
               "z": 24,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 360,
+                "y": 310
+              },
+              "target": {
+                "x": 600,
+                "y": 180
+              },
+              "vertices": [],
+              "id": "1237cd9b-f4c7-4f55-bc48-191f57fccfc9",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.3646950251558238,
+                    "offset": 24.286614226666728
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "9. Run Commands on\nVMs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 25,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
