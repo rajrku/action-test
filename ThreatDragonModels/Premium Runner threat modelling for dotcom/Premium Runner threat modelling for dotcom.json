@@ -47,8 +47,8 @@
                 "height": 100
               },
               "position": {
-                "x": 328,
-                "y": 267
+                "x": 260,
+                "y": 260
               },
               "angle": 0,
               "id": "3de7a3fd-d48a-462f-9642-d86358a6d30f",
@@ -73,8 +73,8 @@
                 "height": 80
               },
               "position": {
-                "x": 580,
-                "y": 420
+                "x": 500,
+                "y": 450
               },
               "angle": 0,
               "id": "8abb9981-f741-40f5-9e2f-5fc228ef39ae",
@@ -308,7 +308,7 @@
               },
               "position": {
                 "x": 80,
-                "y": 410
+                "y": 450
               },
               "angle": 0,
               "id": "b565ee34-4817-4ab8-877d-06f00e1f881e",
@@ -334,7 +334,7 @@
               },
               "position": {
                 "x": 280,
-                "y": 410
+                "y": 450
               },
               "angle": 0,
               "id": "b77b2091-6f46-4c91-add4-bb72cc1cf420",
@@ -495,16 +495,21 @@
                 "id": "3de7a3fd-d48a-462f-9642-d86358a6d30f"
               },
               "target": {
-                "x": 330,
-                "y": 410
+                "x": 340,
+                "y": 450
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 260,
+                  "y": 420
+                }
+              ],
               "id": "87adf9c2-0dd4-41db-873e-8d830e2dd5ac",
               "labels": [
                 {
                   "position": {
-                    "distance": 0.7023888244768947,
-                    "offset": 29.04055712068413
+                    "distance": 0.8914439199000349,
+                    "offset": -37.0176649768006
                   },
                   "attrs": {
                     "text": {
@@ -631,8 +636,7 @@
                 "id": "3de7a3fd-d48a-462f-9642-d86358a6d30f"
               },
               "target": {
-                "x": 650,
-                "y": 420
+                "id": "8abb9981-f741-40f5-9e2f-5fc228ef39ae"
               },
               "vertices": [],
               "id": "1d9f97a9-5feb-4859-b978-73bb77fe1065",
@@ -673,16 +677,20 @@
                 "id": "39d562df-dc55-4dbf-8da5-263db7851d61"
               },
               "target": {
-                "x": 740,
-                "y": 460
+                "id": "8abb9981-f741-40f5-9e2f-5fc228ef39ae"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 600,
+                  "y": 370
+                }
+              ],
               "id": "a645ef55-da45-4b53-af4f-9219e35661af",
               "labels": [
                 {
                   "position": {
-                    "distance": 0.652837759482201,
-                    "offset": 8.586264858499623
+                    "distance": 0.6567935239728068,
+                    "offset": -36.017936235962054
                   },
                   "attrs": {
                     "text": {
@@ -712,8 +720,7 @@
               },
               "smooth": true,
               "source": {
-                "x": 740,
-                "y": 480
+                "id": "8abb9981-f741-40f5-9e2f-5fc228ef39ae"
               },
               "target": {
                 "x": 980,
@@ -721,14 +728,17 @@
               },
               "vertices": [
                 {
-                  "x": 1000,
-                  "y": 380
+                  "x": 830,
+                  "y": 470
                 }
               ],
               "id": "b2b9f0a9-d071-44c5-b889-393bd10d2014",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.47666767784038555,
+                    "offset": 24.761205919266935
+                  },
                   "attrs": {
                     "text": {
                       "text": "12. Run a workflow",
