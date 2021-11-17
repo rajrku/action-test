@@ -351,7 +351,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "4. Image Retrieval",
+                      "text": "3. Image Retrieval",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -485,7 +485,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "7. Manages VMs",
+                      "text": "6. Manages VMs",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -576,7 +576,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "8. Register an Agent",
+                      "text": "7. Register an Agent",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -623,7 +623,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "11. Signal VM is ready",
+                      "text": "10. Signal VM is ready",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -670,7 +670,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "12. Run a workflow",
+                      "text": "11. Run a workflow",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -718,7 +718,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "10. Run commands on\nVMs",
+                      "text": "9. Run commands on\nVMs",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -761,7 +761,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "9. Run Commands on\nVMs",
+                      "text": "8. Run Commands on\nVMs",
                       "font-weight": "400",
                       "font-size": "small"
                     }
