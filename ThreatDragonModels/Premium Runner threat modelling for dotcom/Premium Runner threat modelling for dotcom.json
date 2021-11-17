@@ -327,32 +327,6 @@
               }
             },
             {
-              "type": "tm.Store",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 280,
-                "y": 450
-              },
-              "angle": 0,
-              "id": "b77b2091-6f46-4c91-add4-bb72cc1cf420",
-              "z": 12,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "IMS"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
               "type": "tm.Flow",
               "size": {
                 "width": 10,
@@ -475,53 +449,6 @@
                 }
               ],
               "z": 16,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
-              "smooth": true,
-              "source": {
-                "id": "3de7a3fd-d48a-462f-9642-d86358a6d30f"
-              },
-              "target": {
-                "x": 340,
-                "y": 450
-              },
-              "vertices": [
-                {
-                  "x": 260,
-                  "y": 420
-                }
-              ],
-              "id": "87adf9c2-0dd4-41db-873e-8d830e2dd5ac",
-              "labels": [
-                {
-                  "position": {
-                    "distance": 0.8914439199000349,
-                    "offset": -37.0176649768006
-                  },
-                  "attrs": {
-                    "text": {
-                      "text": "3. Request Token as\nMSI",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 17,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
