@@ -398,7 +398,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "6. Create VMSS",
+                      "text": "5. Create VMSS",
                       "font-weight": "400",
                       "font-size": "small"
                     }
