@@ -790,6 +790,123 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 260,
+                "y": 450
+              },
+              "angle": 0,
+              "id": "6b3e6e26-d04b-4bb2-90e6-38fb11549fff",
+              "z": 26,
+              "hasOpenThreats": false,
+              "description": "- This is accessed via SAS key provided in 1'",
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Customer Shared Image\nGallery (store)"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "3de7a3fd-d48a-462f-9642-d86358a6d30f"
+              },
+              "target": {
+                "x": 340,
+                "y": 440
+              },
+              "vertices": [],
+              "id": "d7b7112e-c962-41c4-8d47-47f5a63bbb9f",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.2897107384836073,
+                    "offset": 57.15340168745653
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "3'. Retrieving the\ncustomer image",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 27,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 140,
+                "y": 50
+              },
+              "target": {
+                "id": "cdcf72aa-4043-4da5-9560-9c360002abe0"
+              },
+              "vertices": [
+                {
+                  "x": 200,
+                  "y": 10
+                }
+              ],
+              "id": "73c551f9-bc52-46f1-b3bc-d0d40268803f",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.6622889593795261,
+                    "offset": 19.469233135615184
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "1'. Pool creation w/\ncustom SIG",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 28,
+              "hasOpenThreats": false,
+              "description": "- Pool creation request\n- Associated with Customer SIG\n- Provided with SAS key to retrieve the custom image from a store",
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
