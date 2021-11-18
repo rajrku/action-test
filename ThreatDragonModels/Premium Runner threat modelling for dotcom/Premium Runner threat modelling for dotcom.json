@@ -105,16 +105,28 @@
               "angle": 0,
               "id": "39d562df-dc55-4dbf-8da5-263db7851d61",
               "z": 4,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "title": "Inbound connections in the Virtual network",
+                  "type": "Elevation of privilege",
+                  "description": "Currently we have the VMs accept inbound requests within vNet",
+                  "mitigation": "- Remove/Cleanup the inbound connections within vNet\n- Revisit NSG for dotcom",
+                  "threatId": "b5a894b0-684a-449f-b010-d62e1ce9c4c8"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Runner VMs"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
