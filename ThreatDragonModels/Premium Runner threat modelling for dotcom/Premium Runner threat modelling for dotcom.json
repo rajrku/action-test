@@ -884,12 +884,12 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.6622889593795261,
-                    "offset": 19.469233135615184
+                    "distance": 0.8387710179720119,
+                    "offset": -27.52686761972214
                   },
                   "attrs": {
                     "text": {
-                      "text": "1'. Pool creation w/\ncustom SIG",
+                      "text": "1'. Create/Import\nCustom Image",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -899,6 +899,100 @@
               "z": 28,
               "hasOpenThreats": false,
               "description": "- Pool creation request\n- Associated with Customer SIG\n- Provided with SAS key to retrieve the custom image from a store",
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "3de7a3fd-d48a-462f-9642-d86358a6d30f"
+              },
+              "target": {
+                "id": "b565ee34-4817-4ab8-877d-06f00e1f881e"
+              },
+              "vertices": [
+                {
+                  "x": 201,
+                  "y": 372
+                }
+              ],
+              "id": "0e733819-dda1-432f-aac8-6b0c9ffc688a",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.4906799582834574,
+                    "offset": 8.178265741643294
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "4'. Copy custom\nimage",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 29,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 432,
+                "y": 101
+              },
+              "target": {
+                "x": 350,
+                "y": 278
+              },
+              "vertices": [
+                {
+                  "x": 449,
+                  "y": 138
+                }
+              ],
+              "id": "a938878c-8116-4083-8a1b-64c6d791c13b",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.31323515437003224,
+                    "offset": 2.5304489896808064
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "2`. Queue Image Sync\nJob",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 30,
+              "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
